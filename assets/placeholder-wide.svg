@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="サンプル画像">
+  <defs>
+    <pattern id="stripe-wide" width="28" height="28" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="28" height="28" fill="#eef0f2"/>
+      <rect width="14" height="28" fill="#e4e7ea"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="360" fill="url(#stripe-wide)"/>
+  <rect x="1" y="1" width="638" height="358" fill="none" stroke="#d3d8dc" stroke-width="2"/>
+  <g transform="translate(320,168)" fill="none" stroke="#aab2ba" stroke-width="3">
+    <rect x="-48" y="-34" width="96" height="68" rx="4"/>
+    <circle cx="-24" cy="-12" r="9"/>
+    <path d="M-48 20 L-16 -6 L8 14 L26 -4 L48 20" />
+  </g>
+  <text x="320" y="248" text-anchor="middle" font-family="'Noto Sans JP',sans-serif" font-size="16" fill="#8a939b" letter-spacing="2">SAMPLE IMAGE</text>
+</svg>
